@@ -17,7 +17,7 @@ except Exception as _e:
     raise
 
 # ==========================
-#   "СЛОЙ" ОШИБОК (доменные)
+#   ОШИБКИ (доменные)
 # ==========================
 
 class UserInputError(Exception):
@@ -27,9 +27,43 @@ class UserInputError(Exception):
 class DataError(Exception):
     """Ошибки данных/структуры CSV."""
 
+REQUIRED_COLUMNS = ["year", "region", "npg", "birth_rate", "death_rate", "gdw", "urbanization"]
 
+def validate_schema(df: pd.DataFrame) -> None:
+    expected = set(REQUIRED_COLUMNS)
+    found = set(df.columns)
+    missing = expected - found
+    extra = found - expected
+    if missing or extra:
+        raise DataError(
+            f"Некорректный набор колонок входного CSV. Ожидаемые колонки: {REQUIRED_COLUMNS}. "
+            f"Найдены колонки: {list(df.columns)}. "
+            f"Отсутствуют: {list(missing)}. Лишние: {list(extra)}."
+        )
+
+def validate_region_numeric(df: pd.DataFrame, numeric_columns: List[str]) -> None:
+    for col in numeric_columns:
+        if col not in df.columns:
+            raise DataError(f"Отсутствует ожидаемая колонка '{col}' в данных региона.")
+        original = df[col]
+        coerced = pd.to_numeric(original, errors="coerce")
+
+        bad_idx = []
+        for i in range(len(original)):
+            val_orig = original.iat[i]
+            val_conv = coerced.iat[i]
+            if pd.notna(val_orig) and pd.isna(val_conv):
+                bad_idx.append(i)
+
+        if bad_idx:
+            examples = [str(original.iat[i]) for i in bad_idx[:5]]
+            examples_str = ", ".join(examples)
+            raise DataError(
+                f"Некорректные данные: обнаружены нечисловые значения в колонке "
+                f"'{col}' для выбранного региона. Примеры: {examples_str}"
+            )
 # ==========================
-#   "СЛОЙ" ЛОГИКИ (без I/O)
+#   ЛОГИКА
 # ==========================
 
 REGION_CANDIDATES: Tuple[str, ...] = (
@@ -44,7 +78,6 @@ REGION_CANDIDATES: Tuple[str, ...] = (
 def _normalize(name: str) -> str:
     return str(name).strip().lower().replace("ё", "е")
 
-
 @dataclass
 class StatsResult:
     region_df: pd.DataFrame
@@ -55,10 +88,7 @@ class StatsResult:
     mean: float
     percentiles_df: pd.DataFrame
 
-
 class DataAnalyzer:
-    """Чистая логика анализа. Не выполняет I/O."""
-
     def __init__(self, df: pd.DataFrame) -> None:
         if df is None or df.empty:
             raise DataError("Пустой DataFrame: в файле нет данных.")
@@ -69,7 +99,6 @@ class DataAnalyzer:
         for col, norm in columns_norm.items():
             if norm in REGION_CANDIDATES:
                 return col
-        # эвристика: строковая/категориальная колонка с наименьшим числом уникальных
         object_like = [
             c
             for c in self._df.columns
@@ -105,16 +134,36 @@ class DataAnalyzer:
         columns: List[str] = list(df.columns)
         idx = col_id
         if not (0 <= idx < len(columns)):
-            idx = col_id - 1  # пробуем 1-based
+            idx = col_id - 1
         if not (0 <= idx < len(columns)):
             raise DataError(
                 f"Некорректный ID колонки: {col_id}. "
                 f"Допустимо: 0..{len(columns)-1} (или 1..{len(columns)})."
             )
-        series = pd.to_numeric(df.iloc[:, idx], errors="coerce")
         name = str(columns[idx])
+        original = df.iloc[:, idx]
+        series = pd.to_numeric(original, errors="coerce")
+
+        # Проверяем некорректные (нечисловые) значения
+        invalid_mask = series.isna() & original.notna()
+        if invalid_mask.any():
+            examples = (
+                original[invalid_mask]
+                .astype(str)
+                .head(5)
+                .to_list()
+            )
+            examples_str = ", ".join(examples)
+            raise DataError(
+                "Некорректные данные: в выбранной колонке "
+                f"'{name}' обнаружены нечисловые значения для выбранного региона. "
+                f"Примеры: {examples_str}"
+            )
+
         if series.notna().sum() == 0:
-            raise DataError(f"В выбранной колонке '{name}' нет численных данных.")
+            raise DataError(
+                f"В выбранной колонке '{name}' нет численных данных."
+            )
         return series.rename(name)
 
     def compute_stats(self, series: pd.Series) -> Dict[str, float]:
@@ -133,7 +182,6 @@ class DataAnalyzer:
         if inclusive_100 and (not points or points[-1] != 100):
             points.append(100)
         values = series.dropna().astype(float).values
-        # Совместимость с разными версиями NumPy: в старых версиях нет параметра `method`
         try:
             perc_values = np.percentile(values, points, method="linear")
         except TypeError:
@@ -143,6 +191,9 @@ class DataAnalyzer:
 
     def analyze(self, region_name: str, col_id: int, region_col: Optional[str] = None) -> StatsResult:
         region_df = self.filter_by_region(region_name, region_col)
+        # все параметры региона являются числами (кроме 'region')
+        numeric_cols = [c for c in REQUIRED_COLUMNS if c != "region"]
+        validate_region_numeric(region_df, numeric_cols)
         series = self.resolve_numeric_series_by_col_id(region_df, col_id)
         stats = self.compute_stats(series)
         perc_df = self.compute_percentiles(series, step=5, inclusive_100=True)
@@ -158,7 +209,7 @@ class DataAnalyzer:
 
 
 # ==========================
-#   "СЛОЙ" ВВОД/ВЫВОД (CLI)
+#   ВВОД/ВЫВОД
 # ==========================
 
 def load_csv(path: str) -> pd.DataFrame:
@@ -231,6 +282,7 @@ def main() -> int:
         ns = prompt_if_needed(ns)
 
         df = load_csv(ns.file)
+        validate_schema(df)
         analyzer = DataAnalyzer(df)
         result = analyzer.analyze(region_name=ns.region, col_id=ns.col_id, region_col=ns.region_col)
 

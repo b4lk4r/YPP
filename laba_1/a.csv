@@ -18,7 +18,7 @@ year,region,npg,birth_rate,death_rate,gdw,urbanization
 1990,Ivanovo Oblast,-2.4,11.6,14.0,81.82,82.3
 1990,Republic of Ingushetia,,,,94.31,24.84
 1990,Irkutsk Oblast,6.2,16.2,10.0,72.48,80.36
-1990,Kabardino-Balkar Republic,11.5,20.0,8.5,80.03,60.86
+1990,Kabardino-Balkar Republic,11.5b,20.0,8.5,80.03,60.86
 1990,Kaliningrad Oblast,2.8,12.6,9.8,67.8,78.97
 1990,Republic of Kalmykia,12.7,20.9,8.2,77.44,45.81
 1990,Kaluga Oblast,-0.5,12.0,12.5,77.4,69.77
@@ -208,7 +208,7 @@ year,region,npg,birth_rate,death_rate,gdw,urbanization
 1992,Magadan Oblast,2.3,10.1,7.8,50.1,84.06
 1992,Mari El Republic,1.2,12.2,11.0,81.37,62.36
 1992,Republic of Mordovia,-1.4,10.6,12.0,81.24,57.65
-1992,Moscow,-5.9,7.6,13.5,70.37,100.0
+1992,Moscow,2,7.6,13.5,70.37,100.0
 1992,Moscow Oblast,-5.5,7.7,13.2,72.69,79.7
 1992,Murmansk Oblast,0.8,8.3,7.5,55.15,91.79
 1992,Nenets Autonomous Okrug,5.9,14.7,8.8,64.41,63.4

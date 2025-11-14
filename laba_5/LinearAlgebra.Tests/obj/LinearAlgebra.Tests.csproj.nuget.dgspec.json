@@ -1,40 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alimb\\OneDrive\\Рабочий стол\\YPP\\laba_5\\LinearAlgebra.Tests\\LinearAlgebra.Tests.csproj": {}
+    "/Users/Alimbek/Desktop/YPP/laba_5/LinearAlgebra.Tests/LinearAlgebra.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alimb\\OneDrive\\Рабочий стол\\YPP\\laba_5\\LinearAlgebra.Tests\\LinearAlgebra.Tests.csproj": {
+    "/Users/Alimbek/Desktop/YPP/laba_5/LinearAlgebra.Tests/LinearAlgebra.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alimb\\OneDrive\\Рабочий стол\\YPP\\laba_5\\LinearAlgebra.Tests\\LinearAlgebra.Tests.csproj",
+        "projectUniqueName": "/Users/Alimbek/Desktop/YPP/laba_5/LinearAlgebra.Tests/LinearAlgebra.Tests.csproj",
         "projectName": "LinearAlgebra.Tests",
-        "projectPath": "C:\\Users\\alimb\\OneDrive\\Рабочий стол\\YPP\\laba_5\\LinearAlgebra.Tests\\LinearAlgebra.Tests.csproj",
-        "packagesPath": "C:\\Users\\alimb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alimb\\OneDrive\\Рабочий стол\\YPP\\laba_5\\LinearAlgebra.Tests\\obj\\",
+        "projectPath": "/Users/Alimbek/Desktop/YPP/laba_5/LinearAlgebra.Tests/LinearAlgebra.Tests.csproj",
+        "packagesPath": "/Users/Alimbek/.nuget/packages/",
+        "outputPath": "/Users/Alimbek/Desktop/YPP/laba_5/LinearAlgebra.Tests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alimb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/Alimbek/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\alimb\\OneDrive\\Рабочий стол\\YPP\\laba_5\\LinearAlgebra\\LinearAlgebra.csproj": {
-                "projectPath": "C:\\Users\\alimb\\OneDrive\\Рабочий стол\\YPP\\laba_5\\LinearAlgebra\\LinearAlgebra.csproj"
+              "/Users/Alimbek/Desktop/YPP/laba_5/LinearAlgebra/LinearAlgebra.csproj": {
+                "projectPath": "/Users/Alimbek/Desktop/YPP/laba_5/LinearAlgebra/LinearAlgebra.csproj"
               }
             }
           }
@@ -88,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -366,29 +359,22 @@
         }
       }
     },
-    "C:\\Users\\alimb\\OneDrive\\Рабочий стол\\YPP\\laba_5\\LinearAlgebra\\LinearAlgebra.csproj": {
+    "/Users/Alimbek/Desktop/YPP/laba_5/LinearAlgebra/LinearAlgebra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alimb\\OneDrive\\Рабочий стол\\YPP\\laba_5\\LinearAlgebra\\LinearAlgebra.csproj",
+        "projectUniqueName": "/Users/Alimbek/Desktop/YPP/laba_5/LinearAlgebra/LinearAlgebra.csproj",
         "projectName": "LinearAlgebra",
-        "projectPath": "C:\\Users\\alimb\\OneDrive\\Рабочий стол\\YPP\\laba_5\\LinearAlgebra\\LinearAlgebra.csproj",
-        "packagesPath": "C:\\Users\\alimb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alimb\\OneDrive\\Рабочий стол\\YPP\\laba_5\\LinearAlgebra\\obj\\",
+        "projectPath": "/Users/Alimbek/Desktop/YPP/laba_5/LinearAlgebra/LinearAlgebra.csproj",
+        "packagesPath": "/Users/Alimbek/.nuget/packages/",
+        "outputPath": "/Users/Alimbek/Desktop/YPP/laba_5/LinearAlgebra/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alimb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/Alimbek/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -428,7 +414,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

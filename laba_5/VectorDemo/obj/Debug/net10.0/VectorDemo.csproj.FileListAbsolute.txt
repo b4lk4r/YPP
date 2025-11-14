@@ -1,37 +1,56 @@
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\bin\Debug\net10.0\VectorDemo.exe
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\bin\Debug\net10.0\VectorDemo.deps.json
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\bin\Debug\net10.0\VectorDemo.runtimeconfig.json
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\bin\Debug\net10.0\VectorDemo.dll
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\bin\Debug\net10.0\VectorDemo.pdb
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\bin\Debug\net10.0\LinearAlgebra.dll
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\bin\Debug\net10.0\LinearAlgebra.pdb
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\obj\Debug\net10.0\VectorDemo.csproj.AssemblyReference.cache
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\obj\Debug\net10.0\VectorDemo.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\obj\Debug\net10.0\VectorDemo.AssemblyInfoInputs.cache
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\obj\Debug\net10.0\VectorDemo.AssemblyInfo.cs
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\obj\Debug\net10.0\VectorDemo.csproj.CoreCompileInputs.cache
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\obj\Debug\net10.0\VectorDemo.csproj.Up2Date
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\obj\Debug\net10.0\VectorDemo.dll
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\obj\Debug\net10.0\refint\VectorDemo.dll
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\obj\Debug\net10.0\VectorDemo.pdb
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\obj\Debug\net10.0\VectorDemo.genruntimeconfig.cache
-C:\Users\alimb\OneDrive\Рабочий стол\YPP_Lab5\VectorDemo\obj\Debug\net10.0\ref\VectorDemo.dll
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\bin\Debug\net10.0\VectorDemo.exe
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\bin\Debug\net10.0\VectorDemo.deps.json
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\bin\Debug\net10.0\VectorDemo.runtimeconfig.json
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\bin\Debug\net10.0\VectorDemo.dll
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\bin\Debug\net10.0\VectorDemo.pdb
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\bin\Debug\net10.0\LinearAlgebra.dll
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\bin\Debug\net10.0\LinearAlgebra.pdb
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\obj\Debug\net10.0\VectorDemo.csproj.AssemblyReference.cache
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\obj\Debug\net10.0\VectorDemo.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\obj\Debug\net10.0\VectorDemo.AssemblyInfoInputs.cache
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\obj\Debug\net10.0\VectorDemo.AssemblyInfo.cs
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\obj\Debug\net10.0\VectorDemo.csproj.CoreCompileInputs.cache
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\obj\Debug\net10.0\VectorDemo.sourcelink.json
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\obj\Debug\net10.0\VectorDemo.csproj.Up2Date
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\obj\Debug\net10.0\VectorDemo.dll
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\obj\Debug\net10.0\refint\VectorDemo.dll
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\obj\Debug\net10.0\VectorDemo.pdb
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\obj\Debug\net10.0\VectorDemo.genruntimeconfig.cache
-C:\Users\alimb\OneDrive\Рабочий стол\YPP\laba_5\VectorDemo\obj\Debug\net10.0\ref\VectorDemo.dll
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/bin/Debug/net10.0/VectorDemo.exe
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/bin/Debug/net10.0/VectorDemo.deps.json
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/bin/Debug/net10.0/VectorDemo.runtimeconfig.json
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/bin/Debug/net10.0/VectorDemo.dll
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/bin/Debug/net10.0/VectorDemo.pdb
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/bin/Debug/net10.0/LinearAlgebra.dll
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/bin/Debug/net10.0/LinearAlgebra.pdb
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/obj/Debug/net10.0/VectorDemo.csproj.AssemblyReference.cache
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/obj/Debug/net10.0/VectorDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/obj/Debug/net10.0/VectorDemo.AssemblyInfoInputs.cache
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/obj/Debug/net10.0/VectorDemo.AssemblyInfo.cs
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/obj/Debug/net10.0/VectorDemo.csproj.CoreCompileInputs.cache
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/obj/Debug/net10.0/VectorDemo.csproj.Up2Date
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/obj/Debug/net10.0/VectorDemo.dll
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/obj/Debug/net10.0/refint/VectorDemo.dll
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/obj/Debug/net10.0/VectorDemo.pdb
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/obj/Debug/net10.0/VectorDemo.genruntimeconfig.cache
+C:/Users/alimb/OneDrive/Рабочий стол/YPP_Lab5/VectorDemo/obj/Debug/net10.0/ref/VectorDemo.dll
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/bin/Debug/net10.0/VectorDemo.exe
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/bin/Debug/net10.0/VectorDemo.deps.json
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/bin/Debug/net10.0/VectorDemo.runtimeconfig.json
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/bin/Debug/net10.0/VectorDemo.dll
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/bin/Debug/net10.0/VectorDemo.pdb
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/bin/Debug/net10.0/LinearAlgebra.dll
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/bin/Debug/net10.0/LinearAlgebra.pdb
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.csproj.AssemblyReference.cache
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.AssemblyInfoInputs.cache
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.AssemblyInfo.cs
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.csproj.CoreCompileInputs.cache
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.sourcelink.json
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.csproj.Up2Date
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.dll
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/obj/Debug/net10.0/refint/VectorDemo.dll
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.pdb
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.genruntimeconfig.cache
+C:/Users/alimb/OneDrive/Рабочий стол/YPP/laba_5/VectorDemo/obj/Debug/net10.0/ref/VectorDemo.dll
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/bin/Debug/net10.0/VectorDemo
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/bin/Debug/net10.0/VectorDemo.deps.json
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/bin/Debug/net10.0/VectorDemo.runtimeconfig.json
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/bin/Debug/net10.0/VectorDemo.dll
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/bin/Debug/net10.0/VectorDemo.pdb
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/bin/Debug/net10.0/LinearAlgebra.dll
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/bin/Debug/net10.0/LinearAlgebra.pdb
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.csproj.AssemblyReference.cache
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.AssemblyInfoInputs.cache
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.AssemblyInfo.cs
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.csproj.CoreCompileInputs.cache
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.sourcelink.json
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.csproj.Up2Date
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.dll
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/obj/Debug/net10.0/refint/VectorDemo.dll
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.pdb
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/obj/Debug/net10.0/VectorDemo.genruntimeconfig.cache
+/Users/Alimbek/Desktop/YPP/laba_5/VectorDemo/obj/Debug/net10.0/ref/VectorDemo.dll

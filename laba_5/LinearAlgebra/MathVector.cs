@@ -73,6 +73,8 @@ namespace LinearAlgebra
             return new MathVector(_values.Zip(vector.Cast<double>(), (a, b) => a * b));
         }
 
+        public static int A() => 42; 
+
         public IMathVector Divide(IMathVector vector)
         {
             CheckDimensions(vector);

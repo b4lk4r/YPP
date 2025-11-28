@@ -8,7 +8,8 @@ namespace LinearAlgebra.Tests
     {
         private const double Eps = 1e-9;
 
-        // ---------- Конструктор ----------
+
+        //  Конструктор 
 
         [Fact]
         public void Constructor_NullSource_ThrowsArgumentNullException()
@@ -30,7 +31,8 @@ namespace LinearAlgebra.Tests
             Assert.Equal(3, v.Dimensions);
         }
 
-        // ---------- Индексатор ----------
+
+        //  Индексатор
 
         [Fact]
         public void Indexer_GetAndSet_WorksCorrectly()
@@ -60,7 +62,8 @@ namespace LinearAlgebra.Tests
             Assert.Throws<IndexOutOfRangeException>(() => v[2] = 5.0);
         }
 
-        // ---------- Length ----------
+
+        // Length 
 
         [Fact]
         public void Length_CalculatedCorrectly()
@@ -72,7 +75,8 @@ namespace LinearAlgebra.Tests
             Assert.True(Math.Abs(13.0 - length) < Eps);
         }
 
-        // ---------- Операции с числом ----------
+
+        // Операции с числом 
 
         [Fact]
         public void SumNumber_ReturnsNewVector_AndDoesNotChangeOriginal()
@@ -103,7 +107,8 @@ namespace LinearAlgebra.Tests
             Assert.Throws<DivideByZeroException>(() => v.DivideNumber(0.0));
         }
 
-        // ---------- Операции с другим вектором ----------
+
+        //Операции с другим вектором 
 
         [Fact]
         public void Sum_DifferentDimensions_Throws()
@@ -145,7 +150,8 @@ namespace LinearAlgebra.Tests
             Assert.Throws<DivideByZeroException>(() => v1.Divide(v2));
         }
 
-        // ---------- ScalarMultiply ----------
+
+        //  ScalarMultiply 
 
         [Fact]
         public void ScalarMultiply_DifferentDimensions_Throws()
@@ -167,7 +173,8 @@ namespace LinearAlgebra.Tests
             Assert.Equal(32.0, result, 9);
         }
 
-        // ---------- CalcDistance ----------
+
+        //  CalcDistance 
 
         [Fact]
         public void CalcDistance_DifferentDimensions_Throws()
@@ -184,12 +191,13 @@ namespace LinearAlgebra.Tests
             var v1 = new MathVector(new[] { 1.0, 2.0, 3.0 });
             var v2 = new MathVector(new[] { 4.0, 6.0, 3.0 });
 
-            var distance = v1.CalcDistance(v2); // sqrt(3^2 + 4^2 + 0^2) = 5
+            var distance = v1.CalcDistance(v2);
 
             Assert.True(Math.Abs(5.0 - distance) < Eps);
         }
 
-        // ---------- Операторы ----------
+
+        //  Операторы 
 
         [Fact]
         public void OperatorPlus_Number_WorksCorrectly()
